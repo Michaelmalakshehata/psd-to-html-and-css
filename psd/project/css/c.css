@@ -1,0 +1,907 @@
+/*
+ *language     css ,html
+ *duration     2 days
+ *programmer   michael
+ */
+
+/* begin code*/
+
+.container
+{
+   width:800px;
+   margin:auto;
+   clear:both
+}
+
+/* begin header*/
+
+.slid
+{
+   height:400px;
+   width:auto;
+   background-color:#387071;
+   overflow:hidden
+}
+.fristpart,.secondpart
+{
+   width:19%;
+   height:45px;
+   display:inline-block;
+   overflow:hidden 
+}
+.thirdpart
+{
+   width:61%;
+   height:45px;
+   display:inline-block;
+   overflow:hidden
+}
+.fristpart  h2
+{
+   cursor:pointer;
+   float:left;
+   font-weight:800;
+   color:#FFFFFF;
+   margin:14px 0 0 5px;
+   font-size:22px;
+   text-transform:uppercase
+}
+hr[name="vertical"]
+{
+   margin:16px 0 0 20px;
+   height:20px;
+   border:#557676 solid 1px;
+   display:inline-block
+}
+
+img[alt="telephone"]
+{
+   float:left;
+   margin:20px 5px 0 30px
+}
+span[name="numberphone"]
+{
+   float:left;
+   text-decoration:underline;
+   margin:19px 0 0 0;
+   cursor:copy;
+   font-size:13px; 
+   color:#FFFFFF
+}
+input[value="get started"]
+{
+   border-width:0;
+   margin:10px 5px 0 20px;
+   background-color:#6A7F7F;
+   float:right;
+   color:#FFFFFF;
+   padding:7px 9px;
+   font-size:8px;
+   letter-spacing:.2px;
+   cursor:pointer;
+   text-transform:uppercase;
+   overflow:hidden;
+   font-size: 12px;
+}
+input[value="get started"]:hover
+{
+   background-color:#e2f1f1;
+   color:black;
+}
+.thirdpart a
+{
+   margin:18px 5px 0 20px;
+   float:right;
+   overflow:hidden;
+   text-decoration:none;
+   color:#BEC8C8;
+   text-transform:uppercase;
+   font-size:14px
+}
+
+.slid a:hover
+{
+   color:#FFFFFF;
+}
+a:active
+{
+   color:#FFFFFF;
+}
+hr[name="horizental"]
+{
+   margin:0;
+   width:800px;
+   border:#557676 solid 1px
+}
+strong[name="welcome"]
+{
+   font-weight:700;
+   color:#FFFFFF;
+   margin:80px 0 0 0;
+   font-size:25px;
+   display:block  
+}
+p[name="welcomenotes"]
+{
+   color:#F2F5F5;
+   font-size:18px;
+   margin:15px 0 0 0;
+   font-weight:400;
+   line-height:115%
+}
+input[value="learn more"]
+{
+   cursor:pointer;
+   margin:25px 0 0 0;
+   background-color:#6FB048;
+   color:#FFFFFF;
+   border:0;
+   font-size:14px;
+   text-transform:uppercase;
+   padding:10px 30px 
+}
+input[value="learn more"]:hover
+{
+   background-color:#c6ebb0;
+   color:black;
+}
+/* end header*/
+
+/* begin features*/
+
+.features
+{
+   height:470px;
+   background-color:#FFFFFF;
+   width:auto
+}
+strong[name="featuretitle"]
+{
+   color:#0F5F5C;
+   text-align:center;
+   margin:20px 0 0 0;
+   display:block;
+   font-size:25px
+}
+hr[name="short"]
+{
+   border:#6FB048 solid 1px;
+   width:50px;
+   margin:9px auto
+}
+p[name="feature"]
+{
+   text-align:center;
+   margin:20px 0 0 0;
+   color:#83A7A5;
+   font-size:14px;
+   line-height:.1
+}
+.lonicon,.design,.photoshop
+{
+   margin:40px 0 0 0;
+   width:33%;
+   height:220px;
+   display:inline-block;
+   overflow:hidden
+}
+.lonicon img
+{
+   margin:10px 0 0 100px
+}
+.design img
+{
+   margin:10px 0 0 100px
+}
+.photoshop img
+{
+   margin:10px 0 0 100px
+}
+strong[name="lonicon"]
+{
+   margin:20px 0 40px 90px;
+   color:#0F5F5C;
+   display:block;
+   font-size:16px
+}
+strong[name="design"]
+{
+   margin:20px 0 40px 75px;
+   color:#0F5F5C;
+   display:block;
+   font-size:16px
+}
+strong[name="photoshop"]
+{
+   margin:20px 0 40px 60px;
+   color:#0F5F5C;
+   display:block;
+   font-size:16px
+}
+p[name="lonicon"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   text-align:center;
+   font-size:14px;
+   line-height:1
+}
+p[name="design"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   text-align:center;
+   font-size:14px;
+   line-height:1
+}
+p[name="photoshop"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   text-align:center;
+   font-size:14px;
+   line-height:1
+}
+hr[name="rulevert"]
+{
+   background-color:#F2F2F2;
+   border-width:0;
+   height:100px;
+   width:2px;
+   margin:20px auto 0 auto
+}
+hr[name="rulehoriz"]
+{
+   border:#F2F2F2 solid 2px;
+   width:100px;
+   margin:0px auto
+}
+
+/* end features*/
+
+/* begin skils*/
+
+.skils
+{
+   height:350px;
+   background-color:#FFFFFF;
+   width:auto
+}
+.browser,.idea,.pexil,.free
+{
+   margin:20px 0 0 10px;
+   width:48.5%;
+   height:150px;
+   display:inline-block;
+   overflow:hidden
+}
+.browser img,.idea img,.pexil img,.free img
+{
+   float:left;
+   margin:15px 0 0px 15px;
+   overflow:hidden
+}
+.browser span,.idea span,.pexil span,.free span
+{
+   color:#0F5F5C;
+   font-weight:700;
+   float:left;
+   margin:20px 0 0 20px;
+   overflow:hidden
+}
+p[name="browser"],p[name="idea"],p[name="pexil"],p[name="free"]/*frist line*/
+{
+   cursor:zoom-in;
+   margin:50px 0 0 18px;
+   color:#8BADAB;
+   font-size:12px;
+   font-weight:500
+  
+}
+p[name="browser1"],p[name="idea1"],p[name="pexil1"],p[name="free1"]/*last line*/
+{
+   cursor:zoom-in;
+   margin:5px 0 0 18px;
+   color:#8BADAB;
+   font-size:12px;
+   font-weight:500
+}
+
+/*end skils*/
+
+/* begin looking*/
+
+.looking
+{
+   height:400px;
+   width:auto;
+   background-color:#EEF1EC;
+   overflow:hidden
+}
+strong[name="headlook"]
+{
+   color:#0F5F5C;
+   text-align:center;
+   margin:20px 0 0 0;
+   display:block;
+   font-size:22px
+    
+}
+hr[name="lookunderline"]
+{
+   border:#6FB048 solid 1px;
+   width:50px;
+   margin:12px auto
+}
+p[name="headdescryp"]
+{
+   color:#83A7A5;
+   text-align:center;
+   margin:20px 0 0 0;
+   font-size:16px 
+}
+img[alt="phone"]
+{
+    cursor:zoom-in;
+    float:left;
+}
+strong[name="ready"]
+{
+   margin:40px 20px 10px 150px;
+   float:left;
+   display:block;
+   font-size:18px;
+   color:#0F5F5C 
+}
+p[name="descryp"]
+{
+    cursor:zoom-in;
+    margin-left:150px;
+    line-height:.5px;
+    font-size:12px;
+    float:left;
+    color:#83A7A5  
+}
+img[alt="tek"]
+{
+    margin:20px 0 0 150px;
+    float:left
+}
+span[name="tek"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   font-size:12px;
+   float:left;
+   margin:25px 0 0 10px;
+   overflow:hidden
+}
+span[name="tek1"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   font-size:12px;
+   float:left;
+   margin:15px 0 0 10px;
+   overflow:hidden
+}
+
+/* end looking*/
+
+/* begin theme*/
+
+.theme
+{
+   height:400px;
+   width:auto;
+   background-color:#FFFFFF;
+   overflow:hidden 
+}
+.descryp,.pecture
+{
+   width:48%;
+   height:400px;
+   display:inline-block;
+   overflow:hidden
+}
+img[alt="pecture"]
+{
+   cursor:zoom-in;
+   float:right;
+   margin:50px 0  0 0
+}
+p[name="themedescryp"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   font-size:19px;
+   margin:110px 0 1px 0
+}
+p[name="themedescryp1"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   font-size:19px;
+   margin:1px 0 0 0
+}
+strong[name="director"]
+{
+  cursor:zoom-in;
+  font-size:13px;
+  margin:25px 0 5px 0;
+  display:block;
+  color:#6FB048 
+}
+p[name="company"]
+{
+  cursor:zoom-in;
+  margin:10px 0 5px 0;
+  font-size:13px; 
+  color:#83A7A5
+}
+
+/* end theme*/
+
+/* begin attention*/
+
+.attention
+{
+   height:300px;
+   width:auto;
+   background-color:#EEF1EC;
+   overflow:hidden 
+}
+.earth,.details
+{
+   width:48%;
+   height:300px;
+   display:inline-block;
+   color:#83A7A5;
+   overflow:hidden
+}
+img[alt="earth"]
+{
+  cursor:zoom-in;
+  float:right;
+  margin:0 
+}
+strong[name="detailshead"]
+{
+  margin:80px 0 20px 0;
+  display:block;
+  font-size:22px;
+  color:#0F5F5C
+}
+p[name="detailsdescryp"]
+{
+  cursor:zoom-in;
+  font-size:12px;
+  color:#83A7A5;
+  line-height:1
+}
+
+/* end attention*/
+
+/* begin pricing*/
+
+.pricing
+{
+  height:1150px;
+  width:auto;
+  background-color:#FFFFFF;
+  overflow:hidden
+}
+strong[name="pricingtitle"]
+{
+   text-align:center;
+   display:block;
+   margin:50px 0px 10px 0;
+   font-size:22px;
+   color:#0F5F5C
+}
+hr[name="pricingunderline"]
+{
+   border:#6FB048 solid 1px;
+   width:50px;
+   margin:12px auto
+}
+.pricingdescryp
+{
+  margin:20px auto 0 auto;
+  height:40px;
+  width:500px
+}
+.pricingdescryp p
+{
+   text-align:center;
+   line-height:1px;
+   font-size:16px;
+   color:#83A7A5
+}
+.plan
+{
+  padding:0;
+  margin:30px auto 0 auto;
+  height:350px;
+  width:600px 
+}
+fieldset[name="basic"],fieldset[name="premium"],fieldset[name="plus"]
+{
+  margin:0;
+  border-top:5px outset #6FB048;
+  border-bottom:1px solid #C1D3D2;
+  border-left:1px solid #C1D3D2;
+  border-right:1px solid #C1D3D2;
+  display:inline-block;
+  height:330px;
+  width:28%;
+  line-height:20px;
+  text-align:center;
+  font-size:15px;
+  color:#83A7A5
+}
+fieldset[name="plus"]
+{
+  margin:0;
+  border:2px outset #a6de88;
+  background-color: #cbe6bb;
+  display:inline-block;
+  height:360px;
+  width:28%;
+  line-height:20px;
+  text-align:center;
+  font-size:15px;
+  color:black
+}
+.premium:hover,.basic:hover
+{
+
+   border:2px outset #a6de88;
+   background-color: #cbe6bb;
+  height:360px;
+  width:28%;
+  color: #000;
+
+}
+input[name="select plan"]:hover
+{
+   color:#FFFFFF;
+  background-color:#6FB048
+}
+strong[name="basicname"],strong[name="plusname"],strong[name="premiumname"]
+{
+  text-align:center;
+  margin-top:15px;
+  display:block;
+  font-size:12px;
+  text-transform:uppercase;
+  color:#6FB048;
+  
+}
+strong[name="price"]
+{
+  text-align:center;
+  margin-top:20px;
+  display:block;
+  font-size:50px;
+  color:#0F5F5C
+}
+span[name="month"]
+{
+  text-align:center;
+  display:block;
+  margin-top: 20px;
+  margin-bottom:20px;
+  font-size:14px;
+  color:#0F5F5C
+}
+
+input[name="select plan"]
+{
+  cursor:pointer;
+  margin:20px auto 0 auto;
+  display:block;
+  font-size:10px;
+  word-spacing:2px;
+  padding:10px 15px;
+  border:0;
+  color:#FFFFFF;
+  text-transform:uppercase;
+  background-color:#83A7A5 
+}
+input[name="selected"]
+{
+  text-transform:uppercase;
+  cursor:pointer;
+  margin:20px auto 0 auto;
+  display:block;
+  font-size:10px;
+  word-spacing:2px;
+  padding:10px 15px;
+  border:0;
+  color:#FFFFFF;
+  background-color:#6FB048 
+}
+strong[name="titleplans"]
+{
+  text-align:center;
+  margin-top:60px;
+  display:block;
+  font-size:22px;
+  color:#0F5F5C
+}
+hr[name="titleplansunderline"]
+{
+  border:#6FB048 solid 1px;
+  width:60px;
+  margin:12px auto
+}
+.fristplan,.secondplan,.thirdplan
+{
+   width:33%;
+   margin-top:20px;
+   height:130px;
+   display:inline-block;
+   overflow:hidden
+}
+img[alt="tek1"]
+{
+    margin:5px;
+    float:left
+}
+span[name="plan1"]
+{
+   cursor:zoom-in;
+   color:#83A7A5;
+   display:block;
+   font-size:12px;
+   float:left;
+   margin:10px 0 4px 7px
+}
+span[name="plan2"]
+{
+   float:left;
+   cursor:zoom-in;
+   color:#83A7A5;
+   display:block;
+   font-size:12px;
+   margin:13px 0 0 7px
+}
+.help
+{
+  margin:30px auto 0 auto;
+  height:150px;
+  width:600px
+}
+img[alt="circle"]
+{
+  margin:0 275px 10px 275px
+}
+strong[name="help"]
+{
+  text-align:center;
+  margin-top:13px;
+  display:block;
+  font-size:25px;
+  color:#6FB048
+}
+hr[name="help"]
+{
+  border:#6FB048 solid 1px;
+  width:60px;
+  margin:15px auto
+}
+p[name="help"]
+{
+  text-align:center;
+  margin-top:13px;
+  font-size:16px;
+  color:#83A7A5
+}
+a[name="helplink"]
+{
+   text-align: center;
+  text-decoration:none;
+  margin:20px 180px 0 170px;
+  font-size:30px;
+  font-weight:700;
+  color:#0F5F5C
+}
+.help a:hover
+{
+   color:#6FB048
+}
+
+/* end pricing*/
+
+/* begin download*/
+
+.download
+{
+  height:200px;
+  width:auto;
+  background-color:#E7E9E3;
+  overflow:hidden
+}
+.downloadtitle
+{
+  display:inline-block;
+  height:200px;
+  width:60%;
+  background-color:#E7E9E3;
+  overflow:hidden
+}
+strong[name="download"]
+{
+  text-align:left;
+  margin-top:80px;
+  display:block;
+  font-size:25px;
+  color:#0F5F5C
+}
+p[name="download"]
+{
+  text-align:left;
+  margin-top:5px;
+  font-size:14px;
+  color:#83A7A5
+}
+input[name="download"]
+{
+  
+  float:right;
+  text-transform:uppercase;
+  cursor:pointer;
+  margin:90px 0 50px 0;
+  font-size:13px;
+  word-spacing:2px;
+  padding:12px 18px;
+  border:0;
+  color:#FFFFFF;
+  background-color:#6FB048
+}
+
+/* end download*/
+
+/* begin links*/
+
+.tags
+{
+  height:280px;
+  width:auto;
+  background-color:#FFFFFF;
+  overflow:hidden
+}
+.newsletter,.others,.wapik,.company
+{
+   width:24%;
+   margin-top:20px;
+   height:170px;
+   display:inline-block;
+   overflow:hidden
+}
+strong[name="wapik"]
+{
+  margin-top:10px;
+  display:block;
+  font-size:20px;
+  font-weight:800;
+  text-transform: uppercase;
+  color:#0F5F5C
+}
+span[name="email1"]
+{
+  float:left;
+  margin:18px 0 0 0;
+  font-size:14px;
+  color:#83A7A5
+}
+.tags a[name="gmail1"]
+{
+  text-decoration:none;
+  float:left;
+  margin:20px 0 0 0;
+  font-size:14px;
+  color:#0F5F5C
+}
+a:hover
+{
+   color:#6FB048
+}
+span[name="number1"]
+{
+  
+  margin:45px 0 0  0;
+  display:block;
+  font-size:14px;
+  color:#83A7A5
+}
+span[name="address"]
+{
+  
+  margin:10px 0 0  0;
+  display:block;
+  font-size:14px;
+  color:#83A7A5
+}
+strong[name="company"]
+{
+  margin:8px 0 0 50px;
+  display:block;
+  font-size:20px;
+  color:#0F5F5C
+}
+a[name="links1"]
+{
+  text-decoration:none;
+  color:#8BADAB;
+  font-size:15px;
+  float:left;
+  margin:15px 20% 0 50px
+}
+.tags a:hover
+{
+   color:#6FB048
+}
+p[name="news"]
+{
+  line-height:30px;
+  color:#8BADAB;
+  font-size:14px;
+  margin:11px 0 0 0
+}
+input[type="text"]
+{
+  width:170px;
+  color:#83A7A5;
+  font-size:15px;
+  display:block;
+  background-color:#EEF1EC;
+  border:0;
+  padding:5px 10px;
+  margin:20px 0 0 0;
+}
+strong[name="newsletter"]
+{
+  margin:8px 0 0 0;
+  display:block;
+  font-size:20px;
+  color:#0F5F5C
+}
+hr[name="finalline"]
+{
+  border:#EEF1EC solid 1px;
+  width:auto;
+  margin:15px 0 0 0
+}
+.image,.copyright
+{
+  width:48%;
+  height:60px;
+  display:inline-block;
+  overflow:hidden
+}
+p[name="copyright"]
+{
+  color:#596a69;
+  font-size:20px;
+  margin-top:25px;
+}
+.image a
+{
+  padding:2px;
+  float:right;
+  margin:20px 0 10px 10px
+}
+.image a:hover
+{
+  padding:2px;
+  float:right;
+  margin:7px;
+  height:35px;
+  width:35px
+}
+
+/* end links*/
+
+/* end code*/
